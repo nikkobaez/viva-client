@@ -125,26 +125,17 @@ const Customizer = () => {
                                         Table Width
                                 </div>
                             </div> 
+
                             <div className='flex items-center gap-4 mt-3'>
-                            <Slider
-                                sx={{
-                                    width: "200px",
-                                    color: "#FFFFFF",
-                                    '& .MuiSlider-thumb': {
-                                        width: 16,
-                                        height: 16,
-                                        '&:hover': {
-                                            boxShadow: 'inherit',
-                                          },
-                                    }
-                                }}
-                                
-                                min={50}
-                                max={200}
-                                value={tableWidth}
-                                onChange={(e) => setTableWidth(e.target.value)}
-                                valueLabelDisplay="auto"
-                            />
+                                <div onClick={() => setTableWidth(50)} className={`${tableWidth === 50 ? "transition-all duration-300 underline underline-offset-8" : ""} text-white no-text-select text-sm hover:cursor-pointer`}>
+                                    Small
+                                </div>
+                                <div onClick={() => setTableWidth(100)} className={`${tableWidth === 100 ? "transition-all duration-300 underline underline-offset-8" : ""} text-white no-text-select text-sm hover:cursor-pointer`}>
+                                    Medium
+                                </div>
+                                <div onClick={() => setTableWidth(200)} className={`${tableWidth === 200 ? "transition-all duration-300 underline underline-offset-8" : ""} text-white no-text-select text-sm hover:cursor-pointer`}>
+                                    Large
+                                </div>
                             </div>
 
                             <div  onClick={() => customizerMenuRef.current.classList.remove('custom-is-open')} className="top-[-10px] right-0 z-30 absolute flex lg:hidden hover:cursor-pointer">
@@ -274,26 +265,17 @@ const Customizer = () => {
                                         Table Width
                                 </div>
                             </div> 
+
                             <div className='flex items-center gap-4 mt-3'>
-                            <Slider
-                                sx={{
-                                    width: "200px",
-                                    color: "#FFFFFF",
-                                    '& .MuiSlider-thumb': {
-                                        width: 16,
-                                        height: 16,
-                                        '&:hover': {
-                                            boxShadow: 'inherit',
-                                          },
-                                    }
-                                }}
-                                
-                                min={50}
-                                max={200}
-                                value={tableWidth}
-                                onChange={(e) => setTableWidth(e.target.value)}
-                                valueLabelDisplay="auto"
-                            />
+                                <div onClick={() => setTableWidth(50)} className={`${tableWidth === 50 ? "transition-all duration-300 underline underline-offset-8" : ""} text-white no-text-select text-sm hover:cursor-pointer`}>
+                                    Small
+                                </div>
+                                <div onClick={() => setTableWidth(100)} className={`${tableWidth === 100 ? "transition-all duration-300 underline underline-offset-8" : ""} text-white no-text-select text-sm hover:cursor-pointer`}>
+                                    Medium
+                                </div>
+                                <div onClick={() => setTableWidth(200)} className={`${tableWidth === 200 ? "transition-all duration-300 underline underline-offset-8" : ""} text-white no-text-select text-sm hover:cursor-pointer`}>
+                                    Large
+                                </div>
                             </div>
 
                             <div  onClick={() => customizerMenuRef.current.classList.remove('custom-is-open')} className="top-[-10px] right-0 z-30 absolute flex lg:hidden hover:cursor-pointer">

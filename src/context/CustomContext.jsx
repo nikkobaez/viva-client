@@ -15,7 +15,7 @@ export const CustomizationProvider = ({children}) => {
     /* TABLE PROPERTIES */
     const [tableLegs, setTableLegs] = useState("model1")
     const [tableLegsColor, setTableLegsColor] = useState(tableLegsColors[0])
-    const [tableWidth, setTableWidth] = useState(100)
+    const [tableWidth, setTableWidth] = useState(50)
 
     return  (
         <CustomContext.Provider value={{
