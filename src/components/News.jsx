@@ -31,7 +31,7 @@ const News = () => {
                         variants={slideIn("up", "tween", 0.35, 1, true)} 
                     > 
                         {articles.map((article) => (
-                            <div key={article.key} className="border-primary-default/20 hover:bg-accent-secondary mx-auto xl:mx-0 p-[20px] border rounded-[62px] w-full max-w-[382px] h-[520px] transition-all cursor-pointer group"> 
+                            <div key={article.key} className="border-primary-default/20 hover:bg-accent-secondary mx-auto p-[20px] border rounded-[62px] w-full max-w-[382px] h-[520px] transition-all cursor-pointer group"> 
                                 <img src={article.image} alt="news image"/>
                                 <div className="flex flex-col gap-[20px]">
                                     <h3 className="h3">
