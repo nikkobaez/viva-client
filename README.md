@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Viva - Frontend Web Application: Frontend web-based landing and product customization page that encourages user engagement by allowing users to design their own pieces of furniture based on the style and colors they want. The technologies I used to build this application are React, TailwindCSS, Framer Motion, and React Three Fiber. Link to Website: https://dainty-paprenjak-d97120.netlify.app/

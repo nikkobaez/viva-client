@@ -49,8 +49,6 @@ const Customizer = () => {
         )
     }
 
-    console.log(tableLegsColor)
-
     return (
         <>
             {/* DESKTOP CUSTOMIZER MENU */}
