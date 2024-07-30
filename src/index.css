@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply font-secondary text-[18px] text-secondary
+}
+
+a {
+    @apply text-[18px] hover:text-accent-default transition-all
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @apply font-primary text-primary-default
+}
+
+.h1 {
+    @apply text-[32px] sm:text-[46px] lg:text-[52px] leading-tight
+}
+
+.h2 {
+    @apply text-[32px] sm:text-[46px] leading-tight
+}
+
+.h3 {
+    @apply text-[25px]
+}
+
+.btn {
+    @apply h-[60px] px-[30px] transition-all duration-300 text-white rounded-[18px] flex items-center gap-2
+}
+
+.btn-primary {
+    @apply bg-primary-default hover:bg-primary-hover
+}
+
+.btn-accent {
+    @apply bg-accent-default hover:bg-accent-hover
+}
+
+.nav-is-open {
+    @apply top-[90px]
+}
+
+.custom-is-open {
+    @apply left-0 right-0
+}
+
+.no-text-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+::-webkit-scrollbar {
+    width: .6rem;
+    border-radius: .5rem;
+    background-color: hsl(19, 8%, 75%);
+}
+::-webkit-scrollbar-thumb {
+    background-color: hsl(19, 8%, 65%);
+    border-radius: .5rem;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(19, 8%, 55%);
+}
