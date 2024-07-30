@@ -122,7 +122,7 @@ const Customizer = () => {
                         <div className="relative">
                             <div className='flex justify-between items-center'>
                                 <div className='font-medium no-text-select uppercase'>
-                                        Table Width
+                                        Table Size
                                 </div>
                             </div> 
 
@@ -262,7 +262,7 @@ const Customizer = () => {
                         <div className="relative">
                             <div className='flex justify-between items-center'>
                                 <div className='font-medium no-text-select uppercase'>
-                                        Table Width
+                                        Table Size
                                 </div>
                             </div> 
 
